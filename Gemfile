@@ -62,3 +62,14 @@ gem 'kaminari','~> 1.1.1'
 
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
+
+gem 'pry-byebug', group: :development
+
+group :test do
+    gem 'rspec-rails'
+    gem "factory_bot_rails"
+    gem 'rspec-parameterized'
+    gem 'faker'
+    gem 'shoulda-matchers'
+    gem 'rails-controller-testing'
+end
